@@ -1,0 +1,5 @@
+﻿Enable-Migrations -ContexEnable-Migrations -ContextTypeName HockeyContext -MigrationsDirectory Migrations\HockeytTypeName HockeyContext -MigrationsDirectory Migrations\Hockey
+
+add-migration -ConfigurationTypeName EntityCodeFirstHansol.Migrations.Hockey.Configuration "AddedCountry"
+
+update-database -ConfigurationTypeName EntityCodeFirstHansol.Migrations.Hockey.Configuration
